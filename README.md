@@ -14,7 +14,7 @@ Some (almost all) hooks has been copied by internet foruns. If necessary look fr
 ## Components (Not possible while not publish in npm)
 
 ```
-import {useElementSize} from '@gadeoli/rjs-component-library';
+import {useElementSize} from '@gadeoli/rjs-hooks-library';
 ```
 
 ## Sources
