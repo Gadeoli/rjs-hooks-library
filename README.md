@@ -21,5 +21,5 @@ import {useElementSize} from '@gadeoli/rjs-hooks-library';
 [useElementSize](https://usehooks-ts.com/react-hook/use-element-size)     
 [useOnClickOutside](https://usehooks.com/useOnClickOutside/)  
 usePersistedState  
-usePrevious
-useWindowSize
+usePrevious  
+useWindowSize  
