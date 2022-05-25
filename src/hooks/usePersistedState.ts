@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { secureJSONStringify } from 'helpers';
+import { secureJSONStringify } from '@gadeoli/js-helpers-library';
 
 import { usePersistedStateProps } from './usePersistedState.types';
 
