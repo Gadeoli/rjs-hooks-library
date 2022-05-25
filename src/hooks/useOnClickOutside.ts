@@ -5,7 +5,7 @@ import { useOnClickOutsideProps } from './useOnClickOutside.types';
 const useOnClickOutside : useOnClickOutsideProps = (ref, handler) => {
     useEffect(
         () => {
-            const listener = (event) => {
+            const listener = (event : any) => {
                 // Do nothing if clicking ref's element or descendent elements
                 if (!ref.current || ref.current.contains(event.target)) {
                 return;

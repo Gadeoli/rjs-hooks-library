@@ -1,6 +1,6 @@
 {
   "name": "@gadeoli/rjs-hooks-library",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Some hooks for reactJS apps in one place",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -35,7 +35,7 @@
   },
   "peerDependencies": {
     "react": "^18.1.0",
-    "@gadeoli/js-helpers-library": "^0.0.2"
+    "@gadeoli/js-helpers-library": "^0.0.3"
   },
   "repository": {
     "type": "git",
