@@ -1,6 +1,6 @@
 # RJS Hook Library
 
-Some (almost all) hooks has been copied by internet foruns. If necessary look from source info to check who created the hook.
+Some (almost all) hooks has been copied from internet foruns. If necessary look from source info to check who created the hook.
 
 ## Hooks
 
