@@ -1,3 +1,3 @@
 export interface useElementSizeProps {
-    ref: any;
+    (ref: any): object;
 }

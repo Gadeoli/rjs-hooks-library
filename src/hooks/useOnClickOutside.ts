@@ -2,9 +2,7 @@ import { useEffect } from "react";
 
 import { useOnClickOutsideProps } from './useOnClickOutside.types';
 
-const useOnClickOutside = (props: useOnClickOutsideProps) => {
-    const {ref, handler} = props;
-
+const useOnClickOutside : useOnClickOutsideProps = (ref, handler) => {
     useEffect(
         () => {
             const listener = (event) => {

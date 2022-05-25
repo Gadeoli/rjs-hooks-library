@@ -1,4 +1,3 @@
 export interface usePersistedStateProps {
-    key: string; 
-    initialState: any;
+    (key: string, initialState: any) : Array<any>;
 }

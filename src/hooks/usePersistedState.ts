@@ -3,8 +3,7 @@ import { secureJSONStringify } from '@gadeoli/js-helpers-library';
 
 import { usePersistedStateProps } from './usePersistedState.types';
 
-const usePersistedState = (props: usePersistedStateProps) => {
-    const {key, initialState} = props;
+const usePersistedState : usePersistedStateProps = (key, initialState) => {
     const [state, setState] = useState(() => {
         const storedValue = localStorage.getItem(key);
         return storedValue ? JSON.parse(storedValue) : initialState;    

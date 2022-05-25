@@ -1,3 +1,3 @@
 export interface usePreviousProps {
-    value: any;
+    (value: any) : any;
 }
