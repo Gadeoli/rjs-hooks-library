@@ -11,7 +11,7 @@ Some (almost all) hooks has been copied by internet foruns. If necessary look fr
 - useWindowSize (Get window sizes)
 
 
-## Components (Not possible while not publish in npm)
+## Use
 
 ```
 import {useElementSize} from '@gadeoli/rjs-hooks-library';
