@@ -22,4 +22,5 @@ import {useElementSize} from '@gadeoli/rjs-hooks-library';
 [useOnClickOutside](https://usehooks.com/useOnClickOutside/)  
 usePersistedState  
 usePrevious  
+[useTimer](https://www.codegrepper.com/code-examples/javascript/time+counter+in+react+js)
 useWindowSize  
