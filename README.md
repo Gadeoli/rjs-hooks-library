@@ -9,7 +9,7 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 - usePersistedState (An option to persist state in local storage)
 - usePrevious (Keep state value between current and previous render)
 - useWindowSize (Get window sizes)
-
+- useTimer (a count down minute / seconds)
 
 ## Use
 
