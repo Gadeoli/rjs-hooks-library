@@ -4,7 +4,7 @@ import { useOnPressKeyProps } from './useOnPressKey.types';
 
 const useOnPressKey : useOnPressKeyProps = (ref, keyAsc, action) => {
     React.useEffect(() => {
-        const onPressKey = (e) => {
+        const onPressKey = (e : any) => {
             if (e.keyCode === keyAsc) {
                 action()
             }
