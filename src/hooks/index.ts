@@ -4,5 +4,4 @@ export { default as usePersistedState } from "./usePersistedState";
 export { default as usePrevious }       from "./usePrevious";
 export { default as useTimer }          from "./useTimer";
 export { default as useWindowSize }     from "./useWindowSize";
-export { default as useClickOutside }   from "./useClickOutside";
 export { default as useOnPressKey }     from "./useOnPressKey";
