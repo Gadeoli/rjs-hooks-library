@@ -7,7 +7,7 @@ const useClickOutside : useClickOutsideProps = (ref, action) => {
         /**
          * Alert if clicked on outside of element
          */
-        function handleClickOutside(e) {
+        function handleClickOutside(e : any) {
             if (ref.current && !ref.current.contains(e.target)) {
                 action();
             }
