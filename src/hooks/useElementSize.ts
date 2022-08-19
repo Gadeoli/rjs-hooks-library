@@ -22,25 +22,31 @@ const useElementSize : useElementSizeProps = (ref) => {
 
     React.useEffect(() => {
         if (ref.current) {
-            const { current } = ref;
-            const boundingRect = current.getBoundingClientRect();
+            const handleElementSize = () => {
+                const { current } = ref;
+                const boundingRect = current.getBoundingClientRect();
 
-            setDimensions({ 
-                width:  Math.round(boundingRect.width), 
-                height: Math.round(boundingRect.height),
-                position: {
-                    x: Math.round(boundingRect.x),
-                    y: Math.round(boundingRect.y),
-                    left:   Math.round(boundingRect.left),
-                    right:  Math.round(boundingRect.right),
-                    top:    Math.round(boundingRect.top),
-                    bottom: Math.round(boundingRect.bottom)
-                },
-                screen: {
-                    width: Math.round(window.screen.width),
-                    height: Math.round(window.screen.height)
-                }
-            });
+                setDimensions({ 
+                    width:  Math.round(boundingRect.width), 
+                    height: Math.round(boundingRect.height),
+                    position: {
+                        x: Math.round(boundingRect.x),
+                        y: Math.round(boundingRect.y),
+                        left:   Math.round(boundingRect.left),
+                        right:  Math.round(boundingRect.right),
+                        top:    Math.round(boundingRect.top),
+                        bottom: Math.round(boundingRect.bottom)
+                    },
+                    screen: {
+                        width: Math.round(window.screen.width),
+                        height: Math.round(window.screen.height)
+                    }
+                });
+            }
+
+            window.addEventListener("resize", handleElementSize);
+            handleElementSize();
+            return () => window.removeEventListener("resize", handleElementSize);
         }
     }, [ref]);
 
