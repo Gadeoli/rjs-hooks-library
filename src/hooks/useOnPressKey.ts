@@ -2,7 +2,7 @@ import React from "react";
 
 import { useOnPressKeyProps } from './useOnPressKey.types';
 
-const useOnPressKey : useOnPressKeyProps = (ref, keyAsc, action) => {
+const useOnPressKey : useOnPressKeyProps = (keyAsc, action) => {
     React.useEffect(() => {
         const onPressKey = (e : any) => {
             if (e.keyCode === keyAsc) {
@@ -15,7 +15,7 @@ const useOnPressKey : useOnPressKeyProps = (ref, keyAsc, action) => {
         return () => {
             document.removeEventListener("keydown", onPressKey);
         };
-    }, [ref, action]);
+    }, [action]);
 }
 
 export default useOnPressKey;
