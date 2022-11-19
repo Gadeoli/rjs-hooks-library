@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { useElementSizeProps } from './useElementSize.types';
 
-const useElementSize : useElementSizeProps = (ref) => {
+const useElementSize : useElementSizeProps = (ref, forceRefresh = 0) => {
     const [dimensions, setDimensions] = useState({ 
         width: 1, 
         height: 2,
@@ -48,7 +48,7 @@ const useElementSize : useElementSizeProps = (ref) => {
             handleElementSize();
             return () => window.removeEventListener("resize", handleElementSize);
         }
-    }, [ref]);
+    }, [ref, forceRefresh]);
 
     return dimensions;
 }
