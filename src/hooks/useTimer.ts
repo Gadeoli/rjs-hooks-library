@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import { useTimerProps } from './useTimer.types';
 
-const useTimer = (initialMinutes = 0, initialSeconds = 0, reset = 1) => {
+const useTimer : useTimerProps = (initialMinutes = 0, initialSeconds = 0, reset = 1) => {
     const [ minutes, setMinutes ] = useState(initialMinutes);
     const [ seconds, setSeconds ] =  useState(initialSeconds);
 

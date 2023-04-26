@@ -5,3 +5,4 @@ export { default as usePrevious }       from "./usePrevious";
 export { default as useTimer }          from "./useTimer";
 export { default as useWindowSize }     from "./useWindowSize";
 export { default as useOnPressKey }     from "./useOnPressKey";
+export { default as useImagePreloader } from "./useImagePreloader";
