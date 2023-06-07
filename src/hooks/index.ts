@@ -1,4 +1,5 @@
 export { default as useElementSize }    from "./useElementSize";
+export { default as useHover }          from "./useHover";
 export { default as useOnClickOutside } from "./useOnClickOutside";
 export { default as usePersistedState } from "./usePersistedState";
 export { default as usePrevious }       from "./usePrevious";

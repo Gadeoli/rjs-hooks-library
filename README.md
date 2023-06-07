@@ -14,7 +14,8 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 ## Hooks 
 
 - useElementSize (Get element sizes using ref)   
-- useOnClickOutside (Listen when clicked outside component using ref)    
+- useHover (control when a element is hovererd using ref)  
+- useOnClickOutside (Listen when clicked outside component using ref)      
 - usePersistedState (An option to persist state in local storage)  
 - usePrevious (Keep state value between current and previous render)  
 - useWindowSize (Get window sizes)  
