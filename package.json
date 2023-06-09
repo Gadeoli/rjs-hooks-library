@@ -1,6 +1,6 @@
 {
   "name": "@gadeoli/rjs-hooks-library",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Some hooks for reactJS apps in one place",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -6,15 +6,17 @@ const useHover : useHoverProps = (ref) => {
 
     useEffect(() => {
         if(ref && ref.current){
+            const node = ref.current;
+
             const show = (e : any) => setShow(true);
             const hide = (e: any) => setShow(false);
 
-            document.addEventListener("mouseenter", show);
-            document.addEventListener("mouseleave", hide);
+            node.addEventListener("mouseover", show);
+            node.addEventListener("mouseout", hide);
 
             return () => {
-                document.removeEventListener("mouseenter", show);
-                document.removeEventListener("mouseleave", hide);
+                node.removeEventListener("mouseover", show);
+                node.removeEventListener("mouseout", hide);
             }
         }
     }, [ref]);
