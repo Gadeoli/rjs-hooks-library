@@ -9,12 +9,12 @@ const useHover : useHoverProps = (ref) => {
             const show = (e : any) => setShow(true);
             const hide = (e: any) => setShow(false);
 
-            ref.current.addEventListener("mouseenter", show);
-            ref.current.addEventListener("mouseleave", hide);
+            document.addEventListener("mouseenter", show);
+            document.addEventListener("mouseleave", hide);
 
             return () => {
-                ref.current.removeEventListener("mouseenter", show);
-                ref.current.removeEventListener("mouseleave", hide);
+                document.removeEventListener("mouseenter", show);
+                document.removeEventListener("mouseleave", hide);
             }
         }
     }, [ref]);
