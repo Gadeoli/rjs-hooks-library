@@ -1,4 +1,4 @@
-# RJS Hook Library
+# RJS Hooks Library
 
 Some (almost all) hooks has been copied from internet foruns. If necessary look from source info to check who created the hook.
 
@@ -30,11 +30,12 @@ import {useElementSize} from '@gadeoli/rjs-hooks-library';
 ```
 
 ## Sources
-[useElementSize](https://usehooks-ts.com/react-hook/use-element-size)     
+[useElementSize](https://usehooks-ts.com/react-hook/use-element-size)   
+useHover  
 [useOnClickOutside](https://usehooks.com/useOnClickOutside/)  
 usePersistedState  
 usePrevious  
-[useTimer](https://www.codegrepper.com/code-examples/javascript/time+counter+in+react+js)
 useWindowSize    
+[useTimer](https://www.codegrepper.com/code-examples/javascript/time+counter+in+react+js)  
 useClickOutside  
 useOnPressKey  
