@@ -3,7 +3,7 @@ import {useRef, useEffect} from 'react';
 import { usePreviousProps } from './usePrevious.types';
 
 const usePrevious : usePreviousProps = (value) =>{
-    const ref = useRef();
+    const ref = useRef(null);
 
     useEffect(() => {
         ref.current = value;
