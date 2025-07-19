@@ -40,3 +40,7 @@ useWindowSize
 useClickOutside  
 useOnPressKey  
 some sources could be missing
+
+
+## Changes
+- useOnpressKey: added modifierKey support

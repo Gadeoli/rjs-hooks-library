@@ -1,3 +1,3 @@
 export interface useOnPressKeyProps {
-    (keyAsc: number, action: any) : void;
+    (keyAsc: number, action: any, modifierKey: string | null) : void;
 }
