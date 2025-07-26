@@ -13,6 +13,7 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 - useTimer (a count down minute / seconds)  
 - useClickOutside (An event handler to trigger an action by outside-click-element using ref)  
 - useOnPressKey (An event handler to trigger an action by key press using ref)  
+- useGhostInFirstRender (A negative boolean value that is setted positive after first render and a small delay)  
 
 ## Use
 
@@ -39,6 +40,7 @@ useWindowSize
 [useTimer](https://www.codegrepper.com/code-examples/javascript/time+counter+in+react+js)  
 useClickOutside  
 useOnPressKey  
+useGhostInFirstRender  
 some sources could be missing
 
 
