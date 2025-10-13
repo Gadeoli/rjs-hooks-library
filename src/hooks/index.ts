@@ -8,3 +8,4 @@ export { default as useWindowSize }     from "./useWindowSize";
 export { default as useOnPressKey }     from "./useOnPressKey";
 export { default as useImagePreloader } from "./useImagePreloader";
 export { default as useGhostInFirstRender } from "./useGhostInFirstRender";
+export { default as useOnInfiniteScrollTrigger } from "./useOnInfiniteScrollTrigger";

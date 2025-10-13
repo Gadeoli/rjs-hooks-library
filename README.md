@@ -14,6 +14,7 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 - useClickOutside (An event handler to trigger an action by outside-click-element using ref)  
 - useOnPressKey (An event handler to trigger an action by key press using ref)  
 - useGhostInFirstRender (A negative boolean value that is setted positive after first render and a small delay)  
+- useOnInfiniteScrollTrigger (Trigger a function when "reffed" element shows up)    
 
 ## Use
 
@@ -41,6 +42,7 @@ useWindowSize
 useClickOutside  
 useOnPressKey  
 useGhostInFirstRender  
+[useOnInfiniteScrollTrigger](https://github.com/WebDevSimplified/React-Infinite-Scrolling)  
 some sources could be missing
 
 
