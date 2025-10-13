@@ -1,3 +1,3 @@
 export interface useOnInfiniteScrollTriggerProps {
-    (hasMore: boolean, loading: boolean, onTrigger?: () => {}) : any;
+    (hasMore: boolean, loading: boolean, onTrigger?: () => void) : any;
 }
