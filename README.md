@@ -15,6 +15,7 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 - useOnPressKey (An event handler to trigger an action by key press using ref)  
 - useGhostInFirstRender (A negative boolean value that is setted positive after first render and a small delay)  
 - useOnInfiniteScrollTrigger (Trigger a function when "reffed" element shows up)    
+- useCabinet (A boolean array control like a file cabinet)  
 
 ## Use
 
@@ -43,6 +44,7 @@ useClickOutside
 useOnPressKey  
 useGhostInFirstRender  
 [useOnInfiniteScrollTrigger](https://github.com/WebDevSimplified/React-Infinite-Scrolling)  
+[useCabinet] ChatGPT  
 some sources could be missing
 
 
