@@ -18,6 +18,14 @@ const useCabinet : useCabinetProps = (n, rootInitial = true) => {
 
     const push = (nx: number) => {
         if (n <= 0) return [];
+        const i = clampN(nx);
+        const next = cabinet.map((_, j) => j === i);
+        setCabinet(next);
+        return next;
+    };
+
+    const pushNested = (nx: number) => {
+        if (n <= 0) return [];
         
         const i = clampN(nx);
         const next = cabinet.map((_, j) => (j <= i ? true : cabinet[j]));
@@ -27,7 +35,14 @@ const useCabinet : useCabinetProps = (n, rootInitial = true) => {
         return next;
     };
 
-    const pull = (nx: number) => {
+    const pull = () => {
+        if (n <= 0) return [];
+        const next = cabinet.map(() => false);
+        setCabinet(next);
+        return next;
+    };
+
+    const pullNested = (nx: number) => {
         if (n <= 0) return [];
         
         const i = clampN(nx);
@@ -56,12 +71,21 @@ const useCabinet : useCabinetProps = (n, rootInitial = true) => {
         return next;
     };
 
+    const manual = (nxs: Array<boolean>) => {
+        const next = Array.from({ length: n }, (_, i) => !!nxs[i]);
+        setCabinet(next);
+        return next;
+    };
+
     return {
         drawers: cabinet,
         reset,
         push,
+        pushNested,
         pull,
+        pullNested,
         reverse,
+        manual
     };
 };
 
