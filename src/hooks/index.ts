@@ -9,3 +9,4 @@ export { default as useOnPressKey }     from "./useOnPressKey";
 export { default as useImagePreloader } from "./useImagePreloader";
 export { default as useGhostInFirstRender } from "./useGhostInFirstRender";
 export { default as useOnInfiniteScrollTrigger } from "./useOnInfiniteScrollTrigger";
+export { default as useCabinet }        from "./useCabinet";
