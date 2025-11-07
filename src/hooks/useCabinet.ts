@@ -55,6 +55,15 @@ const useCabinet : useCabinetProps = (n, rootInitial = true) => {
 
     const reverse = (nx: number) => {
         if (n <= 0) return [];
+        const i = clampN(nx);
+        const next = [...cabinet];
+        next[i] = !next[i];
+        setCabinet(next);
+        return next;
+    };
+
+    const reverseNested = (nx: number) => {
+        if (n <= 0) return [];
         
         const i = clampN(nx);
         const currently = cabinet[i];
@@ -85,6 +94,7 @@ const useCabinet : useCabinetProps = (n, rootInitial = true) => {
         pull,
         pullNested,
         reverse,
+        reverseNested,
         manual
     };
 };
