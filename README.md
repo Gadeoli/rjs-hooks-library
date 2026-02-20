@@ -4,18 +4,19 @@ Some (almost all) hooks has been copied from internet foruns. If necessary look 
 
 ## Hooks 
 
-- useElementSize (Get element sizes using ref)   
-- useHover (control when a element is hovererd using ref)  
-- useOnClickOutside (Listen when clicked outside component using ref)      
-- usePersistedState (An option to persist state in local storage)  
-- usePrevious (Keep state value between current and previous render)  
-- useWindowSize (Get window sizes)  
-- useTimer (a count down minute / seconds)  
-- useClickOutside (An event handler to trigger an action by outside-click-element using ref)  
-- useOnPressKey (An event handler to trigger an action by key press using ref)  
-- useGhostInFirstRender (A negative boolean value that is setted positive after first render and a small delay)  
-- useOnInfiniteScrollTrigger (Trigger a function when "reffed" element shows up)    
 - useCabinet (A boolean array control like a file cabinet)  
+- useElementSize (Get element sizes using ref)   
+- useGhostInFirstRender (A negative boolean value that is setted positive after first render and a small delay)  
+- useHover (control when a element is hovererd using ref)  
+- useImagePreloader  
+- useInViewPort  
+- useOnClickOutside (Listen when clicked outside component using ref)      
+- useOnInfiniteScrollTrigger (Trigger a function when "reffed" element shows up)    
+- useOnPressKey (An event handler to trigger an action by key press using ref)  
+- usePersistedState (An option to persist state in local storage)  
+- usePrevious (Keep state value between current and previous render)   
+- useTimer (a count down minute / seconds)   
+- useWindowSize (Get window sizes)  
 
 ## Use
 
